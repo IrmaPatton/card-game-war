@@ -53,11 +53,8 @@ It's time for war.''')
     round_count = 0  #
     #now plays war
     while True:
-        round_count += 1  #
-        print(round_count)  #
-        print(
-            len(player_one_deck + player_1_pile),  #
-            len(player_two_deck + player_2_pile))  #
+        round_count += 1
+        print('Rounds played: ', round_count)
 
         #if decks is not empty
         check_pop(player_one_deck, player_two_deck, player_1_pile,
